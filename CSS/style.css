@@ -1,0 +1,263 @@
+body {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* NAVIGATION BAR STYLING */
+header {
+    display: flex;
+    flex-shrink: 1;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;    
+    box-shadow: 0 1px 8px #ddd;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: orangered;
+}
+
+header a:hover {
+    filter: brightness(2);
+}
+
+#site-name {
+    margin-top: -100%;
+}
+
+.title {
+    margin-right: auto;
+    display: flex;
+    flex-shrink: 1;
+    align-items: center;
+}
+
+.title a {
+    display: flex; 
+    align-items: center; 
+    text-decoration: none; 
+    flex-shrink: 1;
+}
+
+.title img {
+    margin-right: 10px;
+}
+
+/* FOOTER STYLING */
+footer {
+    background-color: rgb(38, 36, 36);
+    color: rgb(122, 122, 122);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+.wrapper div {
+    padding: 10px;
+    margin: 0px 20px;
+}
+
+.personal {
+    text-align: center;
+    color: aliceblue;
+}
+
+/* BOX STYLING (ABOUT PAGE) */
+.box {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    margin-bottom: 5%;
+    border: 1px solid blanchedalmond;
+}
+
+.box-title {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    align-items: center;
+    border-bottom: 1px solid blanchedalmond;
+    background-color: aliceblue;
+}
+
+.description {
+    padding: 20px 20px;
+    
+}
+
+.title-text {
+    text-align: center;
+    margin-bottom: 5%;
+    border-bottom: 1px solid blanchedalmond;
+}
+
+.last {
+    margin-bottom: 30%;
+}
+
+/* CONTACT PAGE STYLING */
+.contact-form {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 300px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border: 1px solid blanchedalmond;
+    border-radius: 20px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid blanchedalmond;
+    background-color: aliceblue;
+}
+
+.heading span {
+    font-size: 2em;
+}
+
+.contact-form a {
+    text-decoration: none;
+}
+
+.contact-form p {
+    border-bottom: 1px solid blanchedalmond;
+    font-size: 2.5em;
+}
+
+iframe {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    padding: 10px 40px;
+    margin-bottom: 5%;
+}
+
+/* HOME PAGE STYLING */
+.hero-section {
+    background-image: url(../Assets/hero-img.jpg);
+    background-size: cover;
+    height: 100%;    
+}
+
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-shrink: 1;
+    color: white;
+    background-color: rgba(2, 8, 13, 0.551);
+    height: 20em;    
+}
+
+.hero-wrapper .welcome strong {
+    color: orange;
+}
+
+.hero-wrapper button {
+    padding: 20px 40px;
+    color: white;
+    border-radius: 10px;
+    border: transparent;
+    background-color: orangered;
+    margin: 10px;
+}
+
+.hero-wrapper button:hover {
+    cursor: pointer;
+    filter: brightness(1.3);
+}
+
+.menu {
+    text-align: center;
+    color: orangered;
+    margin-bottom: 25%;
+    margin-top: 8%;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px 20px; */
+}
+
+.item {
+    margin: 10px;
+    display: flex;
+}
+
+.item .image {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.item .food-desc {
+    border-right: 1px solid blanchedalmond;
+    border-top: 1px solid blanchedalmond;
+    border-bottom: 1px solid blanchedalmond;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.food-desc .cost {
+    color: rgba(81, 81, 81, 0.7);
+    font-weight: bold;
+}
+
+.item p {
+    margin-bottom: -5px;
+    color: rgba(0, 0, 0, 0.934);
+}
+
+.item button {
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    border: transparent;
+    background-color: orangered;
+    margin-top: 10px;
+}
+
+.item button:hover {
+    cursor: pointer;
+    filter: brightness(1.3);
+}
+
+.item img {
+    border-radius: 10px;
+}
