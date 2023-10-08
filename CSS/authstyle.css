@@ -13,7 +13,7 @@ h1 {
 /* Styles for the login form container */
 .login-form {
     /* Center the form */
-    height: 700px;
+    height: 800px;
     width: 500px;
     margin: auto;
     margin-top: 30px;
@@ -77,7 +77,7 @@ button:hover {
 
 /* Styles for additional buttons */
 .extra-buttons {
-    margin-top: 20px;
+    margin-top: 30px;
     border-top: .5px solid rgb(190, 190, 190);
 }
 
@@ -87,9 +87,17 @@ button:hover {
     color: black;
 }
 
+.extra-buttons label {
+    margin-top: 10px;
+}
+
 /* Styles for signup button */
 #signup {
-    margin-top: 30px;
+    margin-top: 10px;
     background-color: rgb(245, 159, 0);
     color: white;
+}
+
+.buttons label {
+    margin-top: 10px;
 }
